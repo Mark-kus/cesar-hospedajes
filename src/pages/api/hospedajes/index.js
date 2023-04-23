@@ -9,7 +9,7 @@ export default async function handler(req, res) {
     switch (method) {
         case "GET":
             try {
-                const hospedajes = Hospedaje.find();
+                const hospedajes = await Hospedaje.find();
                 return res.status(200).json(hospedajes);
             } catch (error) {
                 return res.status(500).json({ error: error.message })
