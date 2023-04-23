@@ -1,7 +1,7 @@
-export default function Detail () {
+export default function Detail() {
     return (
         <>
-        Detalle
+            Detalle
         </>
     )
 }

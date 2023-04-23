@@ -1,4 +1,4 @@
-export default function Page(props) {
+export default function Home(props) {
     return (
         <>
             Todos los Hospedajes
