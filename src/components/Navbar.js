@@ -4,13 +4,13 @@ export default function Navbar() {
     return (
         <nav>
             <div>
-                <Link href='http://localhost:3000/hospedajes'>Hospedajes</Link>
-                <Link href='http://localhost:3000/hospedajes/new'>New</Link>
-                <Link href='http://localhost:3000/hospedajes/1'>Id</Link>
+                <Link href='/hospedajes'>Hospedajes</Link>
+                <Link href='/hospedajes/new'>New</Link>
+                <Link href='/hospedajes/1'>Id</Link>
             </div>
             <div>
-                <Link href='http://localhost:3000/login'>Login</Link>
-                <Link href='http://localhost:3000/register'>Register</Link>
+                <Link href='/login'>Login</Link>
+                <Link href='/register'>Register</Link>
             </div>
         </nav>
     )
