@@ -4,6 +4,7 @@ export default function Navbar() {
     return (
         <nav>
             <div>
+                <Link href='/'>Imagen</Link>
                 <Link href='/hospedajes'>Hospedajes</Link>
                 <Link href='/hospedajes/new'>New</Link>
                 <Link href='/hospedajes/1'>Id</Link>
