@@ -1,7 +1,10 @@
+import Form from 'components/Form';
+
 export default function Login() {
     return (
         <>
-            login
+            <Form />
+            <Form />
         </>
     )
 }
